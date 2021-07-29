@@ -1,6 +1,5 @@
 # react-native-svg-web
 [![npm version](https://badge.fury.io/js/%40shaharsharron%2Freact-native-svg-web.svg)](http://badge.fury.io/js/react-native-svg-web)
-[![downloads](http://img.shields.io/npm/dm/react-native-svg-web.svg)](https://www.npmjs.com/package/react-native-svg-web)
 
 This is a fork from the original [package](https://github.com/bakerface/react-native-svg-web)
 In addition to web compatibility, this package also fixes "invalid DOM property error" for non camel case properties.
