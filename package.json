@@ -1,16 +1,17 @@
 {
-  "name": "react-native-svg-web",
-  "version": "1.0.9",
-  "description": "A web replacement for react-native-svg",
+  "name": "@shaharsharron/react-native-svg-web",
+  "version": "1.0.0",
+  "description": "A web replacement for react-native-svg with camel case property conversions",
   "main": "index.js",
-  "author": "Chris Baker <mail.chris.baker@gmail.com>",
+  "author": "Shahar Sharron <shaharsharron@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/bakerface/react-native-svg-web#readme",
   "keywords": [
     "react",
     "native",
     "svg",
-    "web"
+    "web",
+    "camelCase"
   ],
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native-web": "^0.12.2"
+  },
+  "dependencies": {
+    "camelcase-keys": "^7.0.0"
   }
 }

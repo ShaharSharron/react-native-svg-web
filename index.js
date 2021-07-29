@@ -24,13 +24,15 @@ import * as React from "react";
 import * as ReactNativeWeb from "react-native-web";
 import PropTypes from "prop-types";
 
+import camelcaseKeys from 'camelcase-keys'; 
+
 const createReactElement =
   ReactNativeWeb.unstable_createElement || React.createElement;
 
 function createElement(name, type) {
   class CreateElement extends React.Component {
     render() {
-      return createReactElement(type, this.props, this.props.children);
+      return createReactElement(type, camelcaseKeys(this.props), this.props.children);
     }
   }
 
